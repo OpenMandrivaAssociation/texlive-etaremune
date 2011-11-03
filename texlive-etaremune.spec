@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/etaremune
+# catalog-date 2009-05-14 13:22:18 +0200
+# catalog-license lppl
+# catalog-version v1.2
 Name:		texlive-etaremune
 Version:	v1.2
 Release:	1
@@ -44,6 +50,7 @@ which uses painfully many counters.
 %doc %{_texmfdistdir}/doc/latex/etaremune/etaremune.pdf
 #- source
 %doc %{_texmfdistdir}/source/latex/etaremune/etaremune.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ which uses painfully many counters.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
