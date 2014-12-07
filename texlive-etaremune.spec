@@ -6,7 +6,7 @@
 # catalog-version v1.2
 Name:		texlive-etaremune
 Version:	v1.2
-Release:	8
+Release:	9
 Summary:	Reverse-counting enumerate environment
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/etaremune
