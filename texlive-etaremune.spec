@@ -1,12 +1,6 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/etaremune
-# catalog-date 2009-05-14 13:22:18 +0200
-# catalog-license lppl
-# catalog-version v1.2
 Name:		texlive-etaremune
-Version:	v1.2
-Release:	10
+Version:	1.2
+Release:	1
 Summary:	Reverse-counting enumerate environment
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/etaremune
